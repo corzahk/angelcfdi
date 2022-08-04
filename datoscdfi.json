@@ -1,0 +1,71 @@
+{
+    "Version": "4.0",
+    "Serie": "XXX",
+    "Folio": "2080427802",
+    "Fecha": "2022-04-10T18:31:50",
+    "Sello": "",
+    "FormaPago": "01",
+    "NoCertificado": "",
+    "Certificado": "",
+    "SubTotal": 0,
+    "Descuento ": 0,
+    "Moneda": "MXN",
+    "TipoCambio": 1,
+    "Total": 0,
+    "TipoDeComprobante": "I",
+    "Exportacion": "01",
+    "MetodoPago": "PUE",
+    "LugarExpedicion": "01000",
+    "InformacionGlobal": {
+      "Periodicidad": "02",
+      "Meses": "05",
+      "Año": "2022"
+    },
+    "Emisor": {
+      "Rfc": "CABL840215RF4",
+      "Nombre": "ESCUELA KEMPER URGATE",
+      "RegimenFiscal": 601
+    },
+    "Receptor": {
+      "Rfc": "COR391215F4A",
+      "Nombre": "PUBLICO EN GENERAL",
+      "DomicilioFiscalReceptor": "20000",
+      "ResidenciaFiscalSpecified": false,
+      "RegimenFiscalReceptor": 606,
+      "UsoCFDI": "D01"
+    },
+    "Conceptos": [
+      {
+        "Impuestos": {
+          "Retenciones": [
+            {
+              "Base": 200,
+              "Impuesto": "001",
+              "TipoFactor": "Tasa",
+              "TasaOCuota": 0.1,
+              "Importe": 20
+            }
+          ]
+        },
+        "ClaveProdServ": "50211503",
+        "NoIdentificacion": "UT421511",
+        "Cantidad": 1,
+        "ClaveUnidad": "H87",
+        "Unidad": "Pieza",
+        "Descripcion": "Cigarros",
+        "ValorUnitario": 200,
+        "Importe": 200,
+        "ObjetoImp": "02"
+      }
+    ],
+    "Impuestos": {
+      "Retenciones": [
+        {
+          "Impuesto": "001",
+          "Importe": 20
+        }
+      ],
+      "TotalImpuestosRetenidos": 20,
+      "TotalImpuestosRetenidosSpecified": true
+    }
+  }
